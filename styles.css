@@ -1,0 +1,44 @@
+body {
+  background-color: #9FD4C2;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+}
+
+h1 {
+  font-size: 350%;
+  color: #670F1D;
+  text-shadow: 1px 1px 1px #000;
+}
+
+li {
+  padding: 3px;
+}
+
+.iconLinks {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  opacity: .9;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #232323;
+  margin: 20px;
+}
+
+.iconLinks:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.iconLinks:active {
+  top: 2px;
+  left: 2px;
+  z-index: 2;
+  box-shadow: inset 0 0 1em black;
+}
+
+.aboutMe {
+  margin: 10px;
+}
